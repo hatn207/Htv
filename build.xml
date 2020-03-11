@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Apitoy" default="full-build">
  <!-- By default, we assume all tools to be on the $PATH -->
- <property name="pdepend" value="/home/jenkins/vendor/bin/pdepend"/>
- <property name="phpcpd"  value="/home/jenkins/vendor/bin/phpcpd"/>
- <property name="phpcs"   value="/home/jenkins/vendor/bin/phpcs"/>
- <property name="phploc"  value="/home/jenkins/vendor/bin/phploc"/>
- <property name="phpmd"   value="/home/jenkins/vendor/bin/phpmd"/>
- <property name="phpunit" value="/home/jenkins/vendor/bin/phpunit"/>
+ <property name="pdepend" value="/var/lib/jenkins/vendor/bin/pdepend"/>
+ <property name="phpcpd"  value="/var/lib/jenkins/vendor/bin/phpcpd"/>
+ <property name="phpcs"   value="/var/lib/jenkins/vendor/bin/phpcs"/>
+ <property name="phploc"  value="/var/lib/jenkins/vendor/bin/phploc"/>
+ <property name="phpmd"   value="/var/lib/jenkins/vendor/bin/phpmd"/>
+ <property name="phpunit" value="/var/lib/jenkins/vendor/bin/phpunit"/>
 
 
  <target name="full-build"
