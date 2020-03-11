@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Apitoy" default="full-build">
  <!-- By default, we assume all tools to be on the $PATH -->
- <property name="pdepend" value="pdepend"/>
- <property name="phpcpd"  value="phpcpd"/>
- <property name="phpcs"   value="phpcs"/>
- <property name="phploc"  value="phploc"/>
- <property name="phpmd"   value="phpmd"/>
- <property name="phpunit" value="phpunit"/>
+ <property name="pdepend" value="${PATH}/pdepend"/>
+ <property name="phpcpd"  value="${PATH}/phpcpd"/>
+ <property name="phpcs"   value="${PATH}/phpcs"/>
+ <property name="phploc"  value="${PATH}/phploc"/>
+ <property name="phpmd"   value="${PATH}/phpmd"/>
+ <property name="phpunit" value="${PATH}/phpunit"/>
 
 
  <target name="full-build"
